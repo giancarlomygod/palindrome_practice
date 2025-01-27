@@ -7,7 +7,12 @@ For this question, letters are NOT case-sensitive, for example, "LEVeL" is a pal
 """
 # Change this function so it works correctly
 def is_palindrome(text):
-    return False
+    tem=text.replace(' ','')
+    for i in tem:
+        if i.isalnum():
+            temp=''+i.upper()
+    return temp==temp[::-1]
+
 
 
 if __name__ == '__main__':
