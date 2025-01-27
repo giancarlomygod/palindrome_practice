@@ -15,6 +15,8 @@ def is_palindrome(text):
 
 
 
+
+
 if __name__ == '__main__':
     test_cases = [('level', True),
                   ('LEVeL', True),
